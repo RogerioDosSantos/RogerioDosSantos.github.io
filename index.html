@@ -6,13 +6,15 @@ layout: default
   {% for post in site.posts %}
     <article class="post">    
       
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.content | truncatewords:40}}
-      </div>
-      
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+		{{ post.content | truncatewords:40}}		
+		<p class="date">Posted by Rogerio <img src="images/more.gif" alt="" /> 
+			<a href="{{ site.baseurl }}{{ post.url }}">Read more</a> <img src="images/comment.gif" alt="" /> 
+			<a href="#">Comments</a> <img src="images/timeicon.gif" alt="" /> 
+			21.02.
+		</p>
+		<br />
+		
     </article>
   {% endfor %}
 </div>
