@@ -11,7 +11,7 @@ layout: banner
         <div class="col-md-3 top_box">
             <div class="view view-ninth">
                 <a href="{{ site.baseurl }}{{ post.url }}">
-                    <img src="{{ site.baseurl }}/images/pic2.jpg" class="img-responsive" alt="" />
+                    <img src="{{ site.baseurl }}/images/post_{{ post.category }}.jpg" class="img-responsive" alt="" onerror="this.onerror = null; this.src = '{{ site.baseurl }}/images/post_blog.jpg';" />
                     <div class="mask mask-1"> </div>
                     <div class="mask mask-2"> </div>
                     <div class="content">
@@ -27,22 +27,3 @@ layout: banner
     </div>
 </div>
 
-
-<!--
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">    
-      
-		<h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
-		{{ post.content | truncatewords:40}}		
-		<p class="date">Posted by Rogerio <img src="images/more.gif" alt="" /> 
-			<a href="{{ site.baseurl }}{{ post.url }}">Read more</a> <img src="images/comment.gif" alt="" /> 
-			<a href="#">Comments</a> <img src="images/timeicon.gif" alt="" /> 
-			21.02.
-		</p>
-		<br />
-		
-    </article>
-  {% endfor %}
-</div>
--->
