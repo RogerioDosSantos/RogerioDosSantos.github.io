@@ -4,10 +4,9 @@ layout: banner
 
 <div class="features">
     <div class="container">
-        <h3 class="m_3">Last Posts</h3>
+        <h3 class="m_3">Recent Posts</h3>
         <div class="close_but"><i class="close1"> </i></div>     
-                        
-        
+                                
         {% tablerow post in site.posts cols:4 limit:8 %}
         <div class="col-md-3 top_box">
             <div class="view view-ninth">
@@ -27,6 +26,7 @@ layout: banner
                    
     </div>
 </div>
+
 
 <!--
 <div class="posts">

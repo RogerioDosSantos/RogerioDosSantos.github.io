@@ -867,8 +867,26 @@ li.pinterest a span {
 	width: 25px;
 	display: block;
 	background: url(../images/img-sprite.png)no-repeat -391px -276px;
-}	
+}
 li.youtube a span {
+    height: 25px;
+    width: 47px;
+    display: block;
+    background: url(../images/img-sprite.png)no-repeat -437px -276px;
+}
+li.google_plus a span {
+	height: 25px;
+	width: 47px;
+	display: block;
+	background: url(../images/img-sprite.png)no-repeat -437px -276px;
+}	
+li.linkedin a span {
+	height: 25px;
+	width: 47px;
+	display: block;
+	background: url(../images/img-sprite.png)no-repeat -437px -276px;
+}	
+li.rss a span {
 	height: 25px;
 	width: 47px;
 	display: block;
