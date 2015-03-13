@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{49E97822-1DB2-4D73-B84B-4747D064F6F0}"
+	ProjectSection(SolutionItems) = preProject
+		_layouts\banner.html = _layouts\banner.html
+		_layouts\default.html = _layouts\default.html
+		_layouts\page.html = _layouts\page.html
+		_layouts\post.html = _layouts\post.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_posts", "_posts", "{20A15546-2669-41D4-833D-151A05B49F3C}"
+	ProjectSection(SolutionItems) = preProject
+		_posts\2014-12-8-Stakedit.md = _posts\2014-12-8-Stakedit.md
+		_posts\2014-3-3-Hello-World.md = _posts\2014-3-3-Hello-World.md
+		_posts\2014-8-12-Tes6.md = _posts\2014-8-12-Tes6.md
+		_posts\2014-8-12-Test.md = _posts\2014-8-12-Test.md
+		_posts\2014-8-12-Test1.md = _posts\2014-8-12-Test1.md
+		_posts\2014-8-12-Test2.md = _posts\2014-8-12-Test2.md
+		_posts\2014-8-12-Test3.md = _posts\2014-8-12-Test3.md
+		_posts\2014-8-12-Test4.md = _posts\2014-8-12-Test4.md
+		_posts\2014-8-12-Test8.md = _posts\2014-8-12-Test8.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{E5ED6D90-5F36-4008-A222-F72E38E815DD}"
+	ProjectSection(SolutionItems) = preProject
+		css\bootstrap.css = css\bootstrap.css
+		css\etalage.css = css\etalage.css
+		css\fwslider.css = css\fwslider.css
+		css\jquery.fancybox.css = css\jquery.fancybox.css
+		css\magnific-popup.css = css\magnific-popup.css
+		css\style.css = css\style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__main", "__main", "{4B67B586-4B17-4754-A9D5-A5E497A4BD06}"
+	ProjectSection(SolutionItems) = preProject
+		404.md = 404.md
+		_config.yml = _config.yml
+		about.md = about.md
+		blog.html = blog.html
+		developments.html = developments.html
+		index.html = index.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

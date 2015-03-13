@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Blog
+title: My Developments
 ---
 
 <div class="posts">
     {% for post in site.posts %}
-    {% if post.category != 'development' %}
+    {% if post.category == 'development' %}
     <article class="post">
 
         <h1><a href="{{ site.baseurl }}{{ post.url }}" style="color:#004c8e;font-style:normal;text-decoration:underline;">{{ post.title }}</a></h1>
