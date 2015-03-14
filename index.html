@@ -11,12 +11,11 @@ layout: banner
         <div class="col-md-3 top_box">
             <div class="view view-ninth">
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-                    <img src="{{ site.url }}{{ site.baseurl }}/images/post_{{ post.category }}.jpg" class="img-responsive" alt="" onerror="this.onerror = null; this.src = '{{ site.url }}{{ site.baseurl }}/images/post_blog.jpg';" />
-                    <!--<img src="{{ site.url }}{{ site.baseurl }}/images/post_{{ post.category }}.jpg" class="img-responsive" alt="" />-->
+                    <img src="{{ site.url }}{{ site.baseurl }}/images/{{ post.image }}" class="img-responsive" alt="" onerror="this.onerror = null; this.src = '{{ site.url }}{{ site.baseurl }}/images/post_blog.jpg';" />
                     <div class="mask mask-1"> </div>
                     <div class="mask mask-2"> </div>
                     <div class="content">
-                        <h2>{{ post.title }}</h2>
+                        <h2>{{ post.subject }}</h2>
                         <p class="content" style=" margin-top: 11px; height: 80px; ">{{ post.content | strip_html | truncatewords:40 }}</p>
                         
                     </div>

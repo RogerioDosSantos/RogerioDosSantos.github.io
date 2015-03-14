@@ -1,0 +1,13 @@
+.blg_post_image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blg_post_date {
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+}
