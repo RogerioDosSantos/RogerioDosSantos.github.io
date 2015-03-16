@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?> <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/CodeSnippet">   
+<CodeSnippet Format="1.0.0">        
+<!-- The header contains information describing the snippet. -->        
+<Header>                    
+<!-- The Title of the snippet, this will be shown in the snippets manager. -->          
+<Title>Insert PDF</Title>                    
+<!-- The description of the snippet. -->          
+<Description>Insert PDF on the blog post.</Description>                    
+<!-- The author of the snippet. -->          
+<Author>Rogerio dos Santos</Author>                    
+<!-- The set of characters that must be keyed in to insert the snippet. -->          
+<Shortcut>ip</Shortcut>                    
+<!-- A URL for more help. -->          
+<HelpUrl>http://rogeriodossantos.github.io</HelpUrl>                    
+<!-- The set of snippet types we're dealing with - either Expansion or -->          
+<SnippetTypes>            
+	<SnippetType>Expansion</SnippetType>          
+</SnippetTypes>                            
+</Header>              
+
+<!-- Now we have the snippet itself. -->        
+<Snippet>
+
+<!-- Create any declarations that we use in the snippet. -->  
+<Declarations>
+
+<Literal>
+<ID>PdfPath</ID>      
+<ToolTip>Relative Path of the PDF</ToolTip>      
+<Default>Developments</Default>    
+</Literal>
+
+<Literal>
+<ID>PdfName</ID>      
+<ToolTip>Relative Path of the PDF</ToolTip>      
+<Default>cosel_integrando.pdf</Default>    
+</Literal>
+
+</Declarations>
+                 
+<!-- Sepecify the code language and the actual snippet content. -->            
+<Code Language="HTML" Kind="any">                
+<![CDATA[
+{% include pdf.html path="$PdfPath$/$PdfName$" %}
+]]>            
+</Code>        
+</Snippet>    
+</CodeSnippet>
+</CodeSnippets>

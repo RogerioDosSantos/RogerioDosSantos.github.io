@@ -3,22 +3,25 @@ layout: page
 title: Blog
 ---
 
-<div class="posts">
     {% for post in site.posts %}
     {% if post.type == 'blog' %}
-    <article class="post">
+<div class="posts" style="display: -webkit-box;">
 
-        <h1><a href="{{ site.baseurl }}{{ post.url }}" style="color:#004c8e;font-style:normal;text-decoration:underline;">{{ post.subject }} - {{ post.title }}</a></h1>
+    <div class="col-xs-6 col-md-4 blg_post_line" style="position: relative;">
+        <h2 class="blg_post_subject">{{ post.subject }}</h2>
+        <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+            <img class="blg_post_image" src="{{ site.url }}{{ site.baseurl }}/resources/post/Categories/{{ post.image }}" alt="" onerror="this.onerror = null; this.src = '{{ site.url }}{{ site.baseurl }}/resources/post/Categories/post_blog.jpg';" />
+        </a>
+    </div>
 
-        <div class="entry" style="margin-top: 19px; margin-bottom: 9px; margin-left: 30px;">
-            {{ post.content | strip_html | truncatewords:40}}
-        </div>
+    <div class="col-xs-12 col-sm-6 col-md-8 blg_post_line">
+        <div class="blg_post_title">{{ post.title }}</div>
+        <p class="blg_post_content">{{ post.content | strip_html | truncatewords:100 }}</p>
+        <div class="blg_post_read_more"><a href="{{ site.baseurl }}{{ post.url }}">Read More</a></div>
+    </div>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more" style="color: #004c8e;font-weight: bold;">Read More</a>
-        <br />
-        <hr>
-        <br />
-    </article>
+</div>
+
+<div class="close_but"><i class="close1"></i></div>
     {% endif %}
     {% endfor %}
-</div>

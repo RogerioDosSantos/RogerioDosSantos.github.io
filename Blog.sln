@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_layouts", "_layouts", "{49
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_posts", "_posts", "{20A15546-2669-41D4-833D-151A05B49F3C}"
 	ProjectSection(SolutionItems) = preProject
-		_posts\2015-1-1-PostModel.md = _posts\2015-1-1-PostModel.md
+		_posts\1111-1-1-PostModel.md = _posts\1111-1-1-PostModel.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{E5ED6D90-5F36-4008-A222-F72E38E815DD}"
@@ -41,7 +41,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_includes", "_includes", "{
 	ProjectSection(SolutionItems) = preProject
 		_includes\analytics.html = _includes\analytics.html
 		_includes\disqus.html = _includes\disqus.html
+		_includes\git.html = _includes\git.html
 		_includes\image.html = _includes\image.html
+		_includes\pdf.html = _includes\pdf.html
+		_includes\power_point.html = _includes\power_point.html
 		_includes\svg-icons.html = _includes\svg-icons.html
 	EndProjectSection
 EndProject
