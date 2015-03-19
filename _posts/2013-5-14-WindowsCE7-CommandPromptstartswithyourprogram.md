@@ -13,5 +13,5 @@ When testing a solution compiled using SDKs that were not built with the Windows
 
 ### The Solution
 
-Compile the program using a SDK that was created using the Windows Compact Embedded 7 platform builder. I executed the following steps described [here](/post/armv7-performance "ARMv7 - Performance") to increase the performance when using ARMv7 processors and the command no longer appeared.
+Compile the program using a SDK that was created using the Windows Compact Embedded 7 platform builder. I executed the following steps described [here]({{ site.url }}{{ site.baseurl }}ARMv7-Performance "ARMv7 - Performance") to increase the performance when using ARMv7 processors and the command no longer appeared.
 
