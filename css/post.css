@@ -64,6 +64,6 @@ iframe {
     font-style: oblique;
     font-weight: bold;
     bottom: 3%;
-    /*position: absolute;*/
+    position: absolute;
     right: 0%;
 }
