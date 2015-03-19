@@ -48,8 +48,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_includes", "_includes", "{
 		_includes\svg-icons.html = _includes\svg-icons.html
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visual Studio", "Visual Studio", "{9EA663F0-F70A-4F20-AC3C-433FB920B928}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "snippets", "snippets", "{687C8402-07EB-4C13-9370-A3735AEAEB35}"
+	ProjectSection(SolutionItems) = preProject
+		_includes\Visual Studio\snippets\InsertImage.snippet = _includes\Visual Studio\snippets\InsertImage.snippet
+		_includes\Visual Studio\snippets\InsertLink.snippet = _includes\Visual Studio\snippets\InsertLink.snippet
+		_includes\Visual Studio\snippets\InsertPdf.snippet = _includes\Visual Studio\snippets\InsertPdf.snippet
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9EA663F0-F70A-4F20-AC3C-433FB920B928} = {3D513EEA-0298-48DB-9EDD-223BC772291E}
+		{687C8402-07EB-4C13-9370-A3735AEAEB35} = {9EA663F0-F70A-4F20-AC3C-433FB920B928}
 	EndGlobalSection
 EndGlobal

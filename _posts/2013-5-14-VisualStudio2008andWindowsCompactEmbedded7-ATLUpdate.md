@@ -13,11 +13,13 @@ You will not be able to compile your MFC / ATL application if you use Visual Stu
 
 The problem is described in details on this Microsoft article:
 
-http://support.microsoft.com/kb/2468183
+[http://support.microsoft.com/kb/2468183](http://support.microsoft.com/kb/2468183 "Microsoft Support")
+
 
 Take special attention on the pre-requirements described on the link above and shown below:
 
-http://support.microsoft.com/kb/2483802
+[http://support.microsoft.com/kb/2483802](http://support.microsoft.com/kb/2483802 "Microsoft Support")
+
 
 The solution will be to download and install the ATL update available. This is an update for Visual Studio 2008 SP1 to extend support for Windows Embedded Compact 7. This article describes the procedure needed to proper update and configure your application.
 
@@ -25,11 +27,13 @@ The solution will be to download and install the ATL update available. This is a
 
 1 - Download and install the pre-requirements from the following link:
 
-http://www.microsoft.com/en-us/download/details.aspx?id=11935
+[http://www.microsoft.com/en-us/download/details.aspx?id=11935](http://www.microsoft.com/en-us/download/details.aspx?id=11935 "Microsoft Support")
+
 
 2 - Download the ATL update from the following link:
 
-http://www.microsoft.com/en-us/download/details.aspx?id=27729
+[http://www.microsoft.com/en-us/download/details.aspx?id=27729](http://www.microsoft.com/en-us/download/details.aspx?id=27729 "Microsoft Support")
+
 
 3 - Add the following additional include directories in your project (Project Properties >> C/C++ >> General >> Additional Include Directories):
 
