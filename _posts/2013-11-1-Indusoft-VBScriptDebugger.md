@@ -4,7 +4,7 @@ type: "development"
 subject: "Indusoft"
 title: "VBScript Debugger on Indusoft Web Studio"
 category: "development"
-image: "post_development.jpg"
+image: "post_indusoft.jpg"
 resource_folder: "post"
 published: true
 ---
