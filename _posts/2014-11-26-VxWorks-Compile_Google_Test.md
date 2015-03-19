@@ -42,11 +42,11 @@ Note: The Google Test folder is the folder where is located the scr, include, sc
      GTEST_ROOT/gtest_main.cc
      GTEST_ROOT/gtest-all.cc
 
-{% include image.html path="add_file_and_link.png" %} 
+{% include image.html path="VxWorks/add_file_and_link.png" %} 
 
 - That is all. Now you can compile your project:
 
-{% include image.html path="gtest_compiled.png" %}
+{% include image.html path="VxWorks/gtest_compiled.png" %}
 
 
 
