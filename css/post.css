@@ -10,12 +10,37 @@ iframe {
     margin-top: 10px;
 }
 
+.blg_post {
+    /*border-style: dotted;*/
+    display: table;
+    position: inherit;
+    width: 100%;
+    height: 100%;
+}
+
+.blg_post_left {
+    /*border-style: dotted;*/
+    display: table;
+    float: left;
+    position: relative;
+    width: 25%;
+}
+
+.blg_post_right {
+    /*border-style: dotted;*/
+    display: table;
+    position: relative;
+    padding-left: 30px;
+}
+
 .blg_post_image {
     margin-top: 30px;
     margin-bottom: 30px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .blg_post_date {
@@ -39,9 +64,8 @@ iframe {
 .blg_post_subject {
     text-align: center;
     font-family: cursive;
-    font-style: oblique;
+    font-size: xx-large;
     text-transform: capitalize;
-    margin-top: 0px;
 }
 
 .blg_post_title {
@@ -66,4 +90,26 @@ iframe {
     bottom: 3%;
     /*position: absolute;*/
     right: 0%;
+}
+
+@media (max-width:700px) {
+    .blg_post_left {
+        /*border-style: dotted;*/
+        display: table;
+        /*float: left;*/
+        position: relative;
+        width: 100%;
+        /*left: auto;
+        right: auto;*/
+    }
+
+    .blg_post_right {
+        /*border-style: dotted;*/
+        display: table;
+        position: relative;
+        width: 100%;
+        /*left: auto;
+        right: auto;*/
+        /*padding-left: 30px;*/
+    }
 }

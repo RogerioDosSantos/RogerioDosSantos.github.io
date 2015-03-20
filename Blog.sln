@@ -35,6 +35,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "__main", "__main", "{4B67B5
 		blog.html = blog.html
 		developments.html = developments.html
 		index.html = index.html
+		test.html = test.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_includes", "_includes", "{3D513EEA-0298-48DB-9EDD-223BC772291E}"

@@ -5,23 +5,22 @@ title: Blog
 
     {% for post in site.posts %}
     {% if post.type == 'blog' %}
-<div class="posts" style="display: -webkit-box;">
+<div class="blg_post">
 
-    <div class="col-xs-6 col-md-4 blg_post_line" style="position: relative;">
-        <h2 class="blg_post_subject">{{ post.subject }}</h2>
+    <div class="blg_post_left">
+        <div class="blg_post_subject">{{ post.subject }}</div>
         <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
-            <img class="blg_post_image" src="{{ site.url }}{{ site.baseurl }}/resources/post/Categories/{{ post.image }}" alt="" onerror="this.onerror = null; this.src = '{{ site.url }}{{ site.baseurl }}/resources/post/Categories/post_blog.jpg';" />
+            <img class="blg_post_image" src="{{ site.url }}{{ site.baseurl }}/resources/post/Categories/{{ post.image }}" alt="" onerror="this.onerror = null; this.src = '{{ site.url }}{{ site.baseurl }}/resources/post/Categories/post_blog.jpg';">
         </a>
     </div>
 
-    <div class="col-xs-12 col-sm-6 col-md-8 blg_post_line">
+    <div class="blg_post_right">
         <div class="blg_post_title">{{ post.title }}</div>
         <p class="blg_post_content">{{ post.content | strip_html | truncatewords:100 }}</p>
         <div class="blg_post_read_more"><a href="{{ site.baseurl }}{{ post.url }}">Read More</a></div>
     </div>
 
 </div>
-
 <div class="close_but"><i class="close1"></i></div>
     {% endif %}
     {% endfor %}
