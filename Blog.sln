@@ -58,6 +58,66 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "snippets", "snippets", "{68
 		_includes\Visual Studio\snippets\InsertPdf.snippet = _includes\Visual Studio\snippets\InsertPdf.snippet
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChromeExtension", "ChromeExtension", "{F3088BF9-A811-4941-A38D-12D1ADC23754}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Evergit", "Evergit", "{45651325-26B1-4515-A72C-8DBECDB3F98D}"
+	ProjectSection(SolutionItems) = preProject
+		ChromeExtension\Evergit\background.html = ChromeExtension\Evergit\background.html
+		ChromeExtension\Evergit\background.js = ChromeExtension\Evergit\background.js
+		ChromeExtension\Evergit\chrome_ex_oauth.html = ChromeExtension\Evergit\chrome_ex_oauth.html
+		ChromeExtension\Evergit\chrome_ex_oauth.js = ChromeExtension\Evergit\chrome_ex_oauth.js
+		ChromeExtension\Evergit\chrome_ex_oauthsimple.js = ChromeExtension\Evergit\chrome_ex_oauthsimple.js
+		ChromeExtension\Evergit\Evergit.css = ChromeExtension\Evergit\Evergit.css
+		ChromeExtension\Evergit\Evergit.html = ChromeExtension\Evergit\Evergit.html
+		ChromeExtension\Evergit\Evergit.js = ChromeExtension\Evergit\Evergit.js
+		ChromeExtension\Evergit\evernote-sdk-minified.js = ChromeExtension\Evergit\evernote-sdk-minified.js
+		ChromeExtension\Evergit\Evernote.js = ChromeExtension\Evergit\Evernote.js
+		ChromeExtension\Evergit\icon_128x128.png = ChromeExtension\Evergit\icon_128x128.png
+		ChromeExtension\Evergit\manifest.json = ChromeExtension\Evergit\manifest.json
+		ChromeExtension\Evergit\onload.js = ChromeExtension\Evergit\onload.js
+		ChromeExtension\Evergit\popup.html = ChromeExtension\Evergit\popup.html
+		ChromeExtension\Evergit\popup.js = ChromeExtension\Evergit\popup.js
+		ChromeExtension\Evergit\publish_icon.png = ChromeExtension\Evergit\publish_icon.png
+		ChromeExtension\Evergit\Test.html = ChromeExtension\Evergit\Test.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EverJS", "EverJS", "{FA2974B5-FF3B-439A-8EF9-F9DD9694DB9D}"
+	ProjectSection(SolutionItems) = preProject
+		ChromeExtension\EverJS\index.html = ChromeExtension\EverJS\index.html
+		ChromeExtension\EverJS\manifest.json = ChromeExtension\EverJS\manifest.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_locales", "_locales", "{2FBDE616-A614-447A-A6C1-470399E54B7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "en", "en", "{A1DBC049-3355-4654-9D9E-5E31A84E66D5}"
+	ProjectSection(SolutionItems) = preProject
+		ChromeExtension\EverJS\_locales\en\messages.json = ChromeExtension\EverJS\_locales\en\messages.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{343BAD9A-7954-4CE5-9EA9-7CB486B79AF7}"
+	ProjectSection(SolutionItems) = preProject
+		ChromeExtension\EverJS\scripts\background.js = ChromeExtension\EverJS\scripts\background.js
+		ChromeExtension\EverJS\scripts\chromereload.js = ChromeExtension\EverJS\scripts\chromereload.js
+		ChromeExtension\EverJS\scripts\client.business-utils.js = ChromeExtension\EverJS\scripts\client.business-utils.js
+		ChromeExtension\EverJS\scripts\client.js = ChromeExtension\EverJS\scripts\client.js
+		ChromeExtension\EverJS\scripts\evernote.js = ChromeExtension\EverJS\scripts\evernote.js
+		ChromeExtension\EverJS\scripts\vanilla.js = ChromeExtension\EverJS\scripts\vanilla.js
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "styles", "styles", "{AF7A5B68-27AA-421F-8544-A37165DA00FE}"
+	ProjectSection(SolutionItems) = preProject
+		ChromeExtension\EverJS\styles\main.css = ChromeExtension\EverJS\styles\main.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ThirdParty", "ThirdParty", "{A9549562-CDEB-40F4-9247-F1FD83DDF5AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsOAuthChromeEx_1.0", "jsOAuthChromeEx_1.0", "{292DDB22-CD2B-455E-9C47-F39A6DFC7132}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "jsOAuthChromeEx", "jsOAuthChromeEx", "{D54805D9-C788-45A5-9B33-BD59C98C6C23}"
+	ProjectSection(SolutionItems) = preProject
+		ChromeExtension\EverJS\ThirdParty\jsOAuthChromeEx_1.0\jsOAuthChromeEx\Gruntfile.js = ChromeExtension\EverJS\ThirdParty\jsOAuthChromeEx_1.0\jsOAuthChromeEx\Gruntfile.js
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,5 +125,14 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{9EA663F0-F70A-4F20-AC3C-433FB920B928} = {3D513EEA-0298-48DB-9EDD-223BC772291E}
 		{687C8402-07EB-4C13-9370-A3735AEAEB35} = {9EA663F0-F70A-4F20-AC3C-433FB920B928}
+		{45651325-26B1-4515-A72C-8DBECDB3F98D} = {F3088BF9-A811-4941-A38D-12D1ADC23754}
+		{FA2974B5-FF3B-439A-8EF9-F9DD9694DB9D} = {F3088BF9-A811-4941-A38D-12D1ADC23754}
+		{2FBDE616-A614-447A-A6C1-470399E54B7F} = {FA2974B5-FF3B-439A-8EF9-F9DD9694DB9D}
+		{343BAD9A-7954-4CE5-9EA9-7CB486B79AF7} = {FA2974B5-FF3B-439A-8EF9-F9DD9694DB9D}
+		{AF7A5B68-27AA-421F-8544-A37165DA00FE} = {FA2974B5-FF3B-439A-8EF9-F9DD9694DB9D}
+		{A9549562-CDEB-40F4-9247-F1FD83DDF5AC} = {FA2974B5-FF3B-439A-8EF9-F9DD9694DB9D}
+		{A1DBC049-3355-4654-9D9E-5E31A84E66D5} = {2FBDE616-A614-447A-A6C1-470399E54B7F}
+		{292DDB22-CD2B-455E-9C47-F39A6DFC7132} = {A9549562-CDEB-40F4-9247-F1FD83DDF5AC}
+		{D54805D9-C788-45A5-9B33-BD59C98C6C23} = {292DDB22-CD2B-455E-9C47-F39A6DFC7132}
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,35 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "Evergit.html".
+ -->
+
+<html>
+
+<head>
+	<title>EverGit - Evernote post to GitHub</title>
+	
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+
+    <!--Evernote SDK-->
+    <script src="./evernote-sdk-minified.js"></script>
+    <!--Evernote Implementation-->
+    <script src="./Evernote.js"></script>
+</head>
+
+<body>
+     
+    Evernote SDK
+    <br />
+    <input type="button" name="Test" value="Test Evernote" onclick="TestEvernote()" />
+
+
+</body>
+
+</html>

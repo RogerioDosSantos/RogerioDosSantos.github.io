@@ -1,0 +1,24 @@
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "Evergit.html".
+ -->
+
+<html>
+
+<head>
+    <title>This is the background page.</title>
+    <!--OAuth files-->
+    <script type="text/javascript" src="chrome_ex_oauthsimple.js"></script>
+    <script type="text/javascript" src="chrome_ex_oauth.js"></script>
+    <script type="text/javascript" src="onload.js"></script>
+
+    <script type="text/javascript" src="background.js"></script>
+
+</head>
+
+<body>
+    This is the background page!
+</body>
+
+</html>

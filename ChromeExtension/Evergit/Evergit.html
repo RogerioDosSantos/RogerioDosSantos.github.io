@@ -1,0 +1,58 @@
+<!--<!doctype html>-->
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "Evergit.html".
+ -->
+
+<html>
+
+<head>
+	<title>EverGit - Evernote post to GitHub</title>
+    <style>
+      body {
+        font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+        font-size: 100%;
+      }		
+	  #status {
+        /* avoid an excessively wide status text */
+        white-space: pre;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        max-width: 400px;
+      }
+    </style>
+	
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <!--<script type="text/javascript" src="Evergit.js"></script>-->	
+
+    <!--Evernote SDK-->
+    <!--<script src="./evernote-sdk-minified.js"></script>-->
+
+    <!--Evernote Implementation--> 
+    <script type="text/javascript" src="./Evernote.js"></script>   
+
+</head>
+
+<body>
+    <!--<div id="status"></div>
+    <img id="image-result" hidden>-->
+	<div>Evergit Extension</div>
+    <br />
+    Evernote SDK
+    <br />
+    <button class="Button01">Authorizing Google</button>
+    <br />
+    <button class="Button02">Authorizing Evernote</button>    
+    <br />
+
+</body>
+
+
+</html>

@@ -1,0 +1,34 @@
+{
+  "manifest_version": 2,
+
+  "name": "EverGit",
+  "version": "0.1",
+
+  "description": "This extension saves Evernote posts into a Github project directory and separate the post image into an image directory.",
+  "icons": { 
+	"128": "icon_128x128.png" 
+  },
+
+  "browser_action": {
+    "default_icon": "publish_icon.png",
+    "default_popup": "Evergit.html",
+	"default_title": "Evergit for Chrome"
+  },
+
+  "background": {
+    "page": "background.html"
+  },
+
+  
+  "author": "Rogerio dos Santos",
+    
+  "permissions": [
+    "activeTab",
+    "tabs",
+	"https://ajax.googleapis.com/",
+	"https://docs.google.com/feeds/*",
+	"https://www.google.com/accounts/OAuthGetRequestToken",
+	"https://www.google.com/accounts/OAuthAuthorizeToken",
+	"https://www.google.com/accounts/OAuthGetAccessToken"
+  ]
+}
