@@ -6,6 +6,7 @@ title: "Open the command prompt directly into a folder path"
 category: "development"
 image: "post_tools.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

@@ -6,6 +6,7 @@ title: "Visual Studio 2008 and Windows Compact Embedded 7 - ATL Update"
 category: "development"
 image: "post_fix.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

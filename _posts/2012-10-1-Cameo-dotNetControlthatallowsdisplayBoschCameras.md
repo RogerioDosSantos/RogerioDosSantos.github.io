@@ -6,6 +6,7 @@ title: ".Net Control that allows display Bosch Cameras"
 category: "development"
 image: "post_development.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

@@ -6,6 +6,7 @@ title: "Performance Increase on the Indusoft runtime"
 category: "development"
 image: "post_performance.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

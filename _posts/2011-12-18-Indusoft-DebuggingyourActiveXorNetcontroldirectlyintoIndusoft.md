@@ -6,6 +6,7 @@ title: "Debugging your ActiveX or .Net control directly into Indusoft"
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

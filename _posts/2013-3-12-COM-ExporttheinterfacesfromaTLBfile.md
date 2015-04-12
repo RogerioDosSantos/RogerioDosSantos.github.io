@@ -6,6 +6,7 @@ title: "Export the interfaces from a TLB file"
 category: "development"
 image: "post_cpp.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

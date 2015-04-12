@@ -6,6 +6,7 @@ title: "VxWorks RTP project link when using file system functions"
 category: "development"
 image: "post_bug.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

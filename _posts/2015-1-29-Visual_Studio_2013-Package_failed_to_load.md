@@ -6,6 +6,7 @@ title: "Package failed to load on Visual Studio 2013"
 category: "development"
 image: "post_bug.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

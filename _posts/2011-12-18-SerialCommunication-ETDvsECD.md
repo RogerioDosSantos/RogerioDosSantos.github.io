@@ -6,6 +6,7 @@ title: "ETD vs ECD"
 category: "development"
 image: "post_network.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

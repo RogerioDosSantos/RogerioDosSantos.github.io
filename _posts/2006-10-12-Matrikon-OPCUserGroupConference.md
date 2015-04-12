@@ -6,6 +6,7 @@ title: "OPC User Group Conference - 2006"
 category: "development"
 image: "post_conference.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

@@ -6,6 +6,7 @@ title: "Ping a device before sending a command using VBScript"
 category: "development"
 image: "post_script.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

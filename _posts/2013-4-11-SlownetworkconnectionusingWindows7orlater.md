@@ -6,6 +6,7 @@ title: "Slow network connection using Windows 7 or later"
 category: "development"
 image: "post_bug.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

@@ -4,6 +4,8 @@
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}</title>    
 
+    <meta itemprop="url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}">
+
     <link href="{{ site.url }}{{ site.baseurl }}css/bootstrap.css" rel='stylesheet' type='text/css' />
     <link href="{{ site.url }}{{ site.baseurl }}css/style.css" rel='stylesheet' type='text/css' />
     <link href="{{ site.url }}{{ site.baseurl }}css/post.css" rel='stylesheet' type='text/css' />
@@ -19,11 +21,6 @@
     </script>
     <script src="{{ site.url }}{{ site.baseurl }}/js/jquery.min.js"></script>
     <!--<script src="{{ site.url }}{{ site.baseurl }}/js/jquery.easydropdown.js"></script>-->
-    <!--start slider -->
-    <link rel="stylesheet" href="css/fwslider.css" media="all">
-    <script src="{{ site.url }}{{ site.baseurl }}/js/jquery-ui.min.js"></script>
-    <script src="{{ site.url }}{{ site.baseurl }}/js/fwslider.js"></script>
-    <!--end slider -->
     <script type="application/javascript">
         $(document).ready(function() {
             $(".dropdown img.flag").addClass("flagvisibility");
@@ -57,6 +54,9 @@
 </head>
 
 <body>
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{ site.name }}">
+    </span>
 
     <div class="header">
         <div class="container">

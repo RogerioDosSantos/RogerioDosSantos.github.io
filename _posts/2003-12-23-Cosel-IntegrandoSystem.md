@@ -6,6 +6,7 @@ title: "Integrando System"
 category: "development"
 image: "pos_web_development.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

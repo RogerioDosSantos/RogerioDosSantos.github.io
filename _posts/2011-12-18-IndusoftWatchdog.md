@@ -6,6 +6,7 @@ title: "Watchdog for Indusoft runtime"
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

@@ -6,6 +6,7 @@ title: "LXTerminal Commands on Raspberry Pi"
 category: "development"
 image: "post_electronic.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

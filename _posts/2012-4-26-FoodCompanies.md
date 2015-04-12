@@ -6,6 +6,7 @@ title: "Food Companies"
 category: "development"
 image: "post_curiosity.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

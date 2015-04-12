@@ -6,6 +6,7 @@ title: "ARMv7 - Performance"
 published: true
 category: "development"
 image: "post_performance.jpg"
+author: "Rogerio dos Santos"
 resource_folder: "post"
 ---
 

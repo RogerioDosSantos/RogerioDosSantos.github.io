@@ -6,6 +6,7 @@ title: "Enable downloading and registration of Application ActiveX on your Indus
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

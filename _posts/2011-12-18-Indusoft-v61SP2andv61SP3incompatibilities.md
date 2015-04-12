@@ -6,6 +6,7 @@ title: "Indusoft v6.1+SP2 and v6.1+SP3 incompatibilities"
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

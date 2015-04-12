@@ -6,6 +6,7 @@ title: "MathJax on your Postach.io website"
 category: "development"
 image: "post_blog.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

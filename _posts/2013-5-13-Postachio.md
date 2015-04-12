@@ -6,6 +6,7 @@ title: "Postach.io"
 category: "development"
 image: "post_blog.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

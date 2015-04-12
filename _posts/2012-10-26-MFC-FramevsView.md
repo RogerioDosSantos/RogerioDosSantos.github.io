@@ -6,6 +6,7 @@ title: "Frame vs View"
 category: "development"
 image: "post_cpp.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

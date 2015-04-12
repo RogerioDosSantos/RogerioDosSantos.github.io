@@ -6,6 +6,7 @@ title: "Linked Picture Default Directory on Indusoft Web Studio v7.1 + Service P
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

@@ -6,6 +6,7 @@ title: "Windows CE 7 Command Prompt starts with your program"
 category: "development"
 image: "post_fix.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

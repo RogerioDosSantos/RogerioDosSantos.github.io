@@ -6,6 +6,7 @@ title: "Calling LogWin / Database Spy from command prompt"
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

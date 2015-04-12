@@ -7,6 +7,7 @@ published: true
 category: "development"
 image: "post_tools.jpg"
 resource_folder: "post/VxWorks"
+author: "Rogerio dos Santos"
 ---
 
 Installation for Windows 8

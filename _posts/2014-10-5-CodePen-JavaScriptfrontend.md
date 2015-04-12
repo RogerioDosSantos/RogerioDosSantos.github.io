@@ -6,6 +6,7 @@ title: "JavaScript front end demonstration with CodePen"
 category: "development"
 image: "post_web_development.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

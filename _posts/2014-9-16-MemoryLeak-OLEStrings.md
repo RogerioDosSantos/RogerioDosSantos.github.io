@@ -6,6 +6,7 @@ title: "Memory Leak on OLE Strings"
 category: "development"
 image: "post_cpp.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

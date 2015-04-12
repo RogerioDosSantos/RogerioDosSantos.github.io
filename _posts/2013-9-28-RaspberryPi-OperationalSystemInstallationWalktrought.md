@@ -6,6 +6,7 @@ title: "Raspberry Pi Operational System Installation Walktrought"
 category: "development"
 image: "post_knowledge.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

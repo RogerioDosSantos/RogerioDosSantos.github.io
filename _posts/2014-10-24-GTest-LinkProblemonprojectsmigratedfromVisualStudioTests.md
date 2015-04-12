@@ -6,6 +6,7 @@ title: "Link Problem on GTest projects migrated from Visual Studio Tests"
 category: "development"
 image: "post_development.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

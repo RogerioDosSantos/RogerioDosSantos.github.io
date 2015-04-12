@@ -6,6 +6,7 @@ title: "Getting Network using Legacy Network adapter on Hyper-V"
 category: "development"
 image: "post_tools.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

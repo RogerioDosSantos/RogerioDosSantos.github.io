@@ -6,6 +6,7 @@ title: "C++ On-line compilers"
 category: "development"
 image: "post_tools.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

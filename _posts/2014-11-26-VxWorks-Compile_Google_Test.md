@@ -6,6 +6,7 @@ title: "Compile Google Test for VxWorks"
 category: "development"
 image: "post_development.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

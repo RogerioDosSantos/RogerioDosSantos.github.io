@@ -6,6 +6,7 @@ title: "Clean the Memory of Bosch Controlers"
 category: "development"
 image: "post_bug.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 

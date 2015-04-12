@@ -6,6 +6,7 @@ title: "Disable all PopUp messages on Windows CE on Indusoft"
 category: "development"
 image: "post_indusoft.jpg"
 resource_folder: "post"
+author: "Rogerio dos Santos"
 published: true
 ---
 
