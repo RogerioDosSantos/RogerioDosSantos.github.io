@@ -7,6 +7,6 @@ subject: 'Cosel'
 title: 'Integrando System'
 category: 'development'
 image: 'pos_web_development.jpg'
-author: 'This is a test'
+author: ''
 ---
 Hi There
