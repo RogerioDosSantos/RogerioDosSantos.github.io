@@ -1,6 +1,6 @@
 ---
 layout: post
-published: true
+published: false
 resource_folder: 'post'
 type: 'blog'
 subject: 'O grupo da morte em uma imagem'
