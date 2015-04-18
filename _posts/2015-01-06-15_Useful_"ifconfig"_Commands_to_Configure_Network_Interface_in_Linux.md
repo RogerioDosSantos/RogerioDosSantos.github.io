@@ -6,7 +6,7 @@ type: 'blog'
 subject: 'Linux Commands'
 title: '15 Useful "ifconfig" Commands to Configure Network Interface in Linux'
 category: 'GithNote'
-image: 'post_blog.jpg'
+image: 'post_script.jpg'
 author: ''
 ---
 <br/><div><div><div><div><h1>15 Useful “ifconfig” Commands to Configure Network Interface in Linux</h1></div>
